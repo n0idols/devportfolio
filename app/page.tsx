@@ -1,12 +1,16 @@
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
 import React from "react";
 
 export default function page() {
   return (
-    <Hero
-      hook="Welcome"
-      subhook="Experience our legendary service"
-      cta="learn more"
-    />
+    <section>
+      <Hero />
+      <Skills />
+      <Projects />
+      <Footer />
+    </section>
   );
 }

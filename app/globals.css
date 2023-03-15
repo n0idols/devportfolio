@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body {
+  @apply bg-black-800 text-white;
+}
+
+input,
+textarea {
+  @apply bg-transparent border-b border-primary my-2 pb-2;
+}
+button {
+  @apply py-4 text-white font-bold border-b border-primary uppercase tracking-widest;
+}
+
+section {
+  @apply mx-auto max-w-6xl px-2;
+}
+
+.btn {
+  @apply py-2 text-white font-bold border-b-2 border-primary uppercase tracking-widest;
+}
+
+.big-title {
+  @apply md:text-8xl text-4xl font-bold;
+}
